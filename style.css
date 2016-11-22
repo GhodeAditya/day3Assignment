@@ -19,8 +19,9 @@ body {
     width: 85%;
     text-align: center;
     margin: auto;
-    background-color:#fff;
-    padding-bottom: 15%;
+    background-color: #fff;
+    padding-bottom: 10%;
+    border-bottom: 1px solid #4297da;
 }
 
 
@@ -58,7 +59,7 @@ body {
 /************ Middle section left ***********/
 
 .subWrapper {
-     margin: auto;
+    margin: auto;
     width: 95%;
     text-align: center;
     padding-top: 60px;
@@ -114,9 +115,9 @@ p {
 /************ Middle section Right ***********/
 
 .secSection {
-    width: 35%;
-    float: right;
-    margin-top: 60px;
+    margin: auto;
+    width: 95%;
+    margin-top: 20px;
 }
 
 .secSection h3 {
@@ -173,19 +174,28 @@ p {
 }
 
 .sideText {
-    text-align: left;
     font-family: 'RobotoCondensed-Regular';
     font-weight: 300;
     font-style: normal;
     margin-left: 120px;
+    clear: both;
 }
+
+.sideText p {
+    margin: 0;
+    padding-left: 145px;
+}
+
+
 /********** table css **********/
 
 table#bottmTable {
-    width: 100%; 
-} 
-th{
-     font-family: 'RobotoCondensed-Regular';
+    width: 100%;
+    padding-top: 7%;
+}
+
+th {
+    font-family: 'RobotoCondensed-Regular';
     font-weight: 300;
     font-style: normal;
     font-size: 24px;
@@ -193,6 +203,7 @@ th{
     padding-left: 23px;
     letter-spacing: 0.0625em;
 }
+
 td {
     font-family: 'RobotoCondensed-Regular';
     font-weight: 300;
@@ -203,20 +214,48 @@ td {
     padding-bottom: 15px;
     padding-left: 23px;
     margin-right: 10px;
-     letter-spacing: 0.0625em;
-     border-bottom: 0.0625em solid #cac8c8;
+    letter-spacing: 0.0625em;
+    border-bottom: 0.0625em solid #cac8c8;
 }
+
+
 /**********  MoreDetail page css **********/
-ol{
+
+ol {
     padding-top: 60px;
 }
+
 li {
-     text-align: left;
-     font-family: 'RobotoCondensed-Regular';
+    text-align: left;
+    font-family: 'RobotoCondensed-Regular';
     font-weight: 300;
     font-style: normal;
     font-size: 14px;
     letter-spacing: 0.0625em;
-    padding-bottom: 15px;
+}
 
+
+/*************** ThirdSection ***************/
+
+.TrirdSection {
+    margin: auto;
+    width: 85%;
+    padding-bottom: 7%;
+    background-color: #f3f3f3;
+}
+
+.ThirdSection #pageContent {
+    background-color: #fff;
+}
+
+#pageContentTwo {
+    width: 100%;
+    background-color: #4297da;
+}
+
+
+/*********** footer css ***************/
+
+#footer {
+    padding-bottom: 7%;
 }
